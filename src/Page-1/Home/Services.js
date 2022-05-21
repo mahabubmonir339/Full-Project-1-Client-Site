@@ -32,8 +32,17 @@ const Services = () => {
             <div>
                 <h1 className='text-center text-[#d946ef]'>Our Services</h1>
                 <h3 className='text-center text-2xl'><b>Services We Provide</b></h3><br /><br />
+                <div className='grid grid-cols-1 lg:grid-cols-3 gap-5 px-10'>
+                    {
+                        card.map(service =>
+                            <ServicesCardA
+                                key={service._id}
+                                service={service}
+                            ></ServicesCardA>)
+                    }
+                </div>
             </div>
-            <div className='grid grid-cols-1 lg:grid-cols-3 gap-5'>
+            {/* <div className='grid grid-cols-1 lg:grid-cols-3 gap-5 px-10'>
                 {
                     card.map(service =>
                         <ServicesCardA
@@ -41,7 +50,7 @@ const Services = () => {
                             service={service}
                         ></ServicesCardA>)
                 }
-            </div>
+            </div> */}
 
             <ServicesCardB></ServicesCardB>
         </div>
