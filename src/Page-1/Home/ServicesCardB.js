@@ -5,7 +5,7 @@ const ServicesCardB = () => {
     return (
         <div>
             <div class="hero min-h-screen">
-                <div class="hero-content flex justify-evenly flex-col lg:flex-row px-10">
+                <div class="hero-content flex justify-evenly flex-col lg:flex-row">
                     <div><img src={Treatment} class="max-w-sm rounded-lg shadow-2xl" /></div>
                     <div class="text-start mx-20 px-10">
                         <h1 class="text-5xl font-bold">Exceptional Dental Care, on Your Terms</h1>

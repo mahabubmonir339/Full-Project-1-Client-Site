@@ -11,8 +11,8 @@ const Navbar = () => {
         <li className='text-xl'><Link to="/login">Login</Link></li>
     </>
     return (
-        <div className='px-12'>
-            <div class="navbar bg-base-100">
+        <div className=''>
+            <div class="navbar bg-base-300 bg-gradient-to-r from-primary to-accent text-white">
                 <div class="navbar-start">
                     <div class="dropdown">
                         <label tabindex="0" class="btn btn-ghost lg:hidden">
