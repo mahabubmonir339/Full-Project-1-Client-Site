@@ -3,15 +3,15 @@ import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     const navItem = <>
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/appointment">Appointment</Link></li>
-        <li><Link to="/review">Review</Link></li>
-        <li><Link to="/contact">Contact</Link></li>
-        <li><Link to="/about">About</Link></li>
-        <li><Link to="/login">Login</Link></li>
+        <li className='text-xl'><Link to="/">Home</Link></li>
+        <li className='text-xl'><Link to="/appointment">Appointment</Link></li>
+        <li className='text-xl'><Link to="/review">Review</Link></li>
+        <li className='text-xl'><Link to="/contact">Contact</Link></li>
+        <li className='text-xl'><Link to="/about">About</Link></li>
+        <li className='text-xl'><Link to="/login">Login</Link></li>
     </>
     return (
-        <div>
+        <div className='px-12'>
             <div class="navbar bg-base-100">
                 <div class="navbar-start">
                     <div class="dropdown">
@@ -23,7 +23,7 @@ const Navbar = () => {
                         </ul>
                     </div>
 
-                    <b class="btn btn-ghost normal-case text-3xl font-bold"><Link to="/">Doctor Table</Link></b>
+                    <b class="btn btn-ghost normal-case text-4xl font-bold"><Link to="/">Doctor Table</Link></b>
                 </div>
                 <div class="navbar-center hidden lg:flex navbar-end">
                     <ul class="menu menu-horizontal p-0 ">

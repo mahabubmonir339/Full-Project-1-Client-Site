@@ -8,28 +8,29 @@ const CardInfo = () => {
     const marker = Marker;
     const phone = Phone;
     return (
-        <div class="grid grid-cols-1 lg:grid-cols-3 gap-5">
-            <div class="card card-side bg-primary shadow-xl">
-                <figure><img src={clock} alt="Movie" /></figure>
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-5 px-20">
+            <div class="card card-side bg-primary bg-gradient-to-r from-accent to-primary shadow-xl text-white">
+                <figure className="pl-5"><img src={clock} alt="Movie" /></figure>
                 <div class="card-body">
-                    <h2 class="card-title">New movie is released!</h2>
-                    <p>Click the button to watch on Jetflix app.</p>
+                    <h2 class="card-title">Opening Hours</h2>
+                    <p>24/6</p>
+                    <p>Friday Off</p>
 
                 </div>
             </div>
-            <div class="card card-side bg-accent shadow-xl">
-                <figure><img src={marker} alt="Movie" /></figure>
+            <div class="card card-side bg-accent shadow-xl text-white">
+                <figure className="pl-5"><img src={marker} alt="Movie" /></figure>
                 <div class="card-body">
-                    <h2 class="card-title">New movie is released!</h2>
-                    <p>Click the button to watch on Jetflix app.</p>
+                    <h2 class="card-title">Our Locations</h2>
+                    <p>Mohammadpur, Dhaka</p>
 
                 </div>
             </div>
-            <div class="card card-side bg-primary shadow-xl">
-                <figure><img src={phone} alt="Movie" /></figure>
+            <div class="card card-side bg-primary bg-gradient-to-r from-primary to-accent shadow-xl text-white">
+                <figure className="pl-5"><img src={phone} alt="Movie" /></figure>
                 <div class="card-body">
-                    <h2 class="card-title">New movie is released!</h2>
-                    <p>Click the button to watch on Jetflix app.</p>
+                    <h2 class="card-title">Contact Us Now</h2>
+                    <p>+8801763000339</p>
 
                 </div>
             </div>
